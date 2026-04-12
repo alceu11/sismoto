@@ -6,14 +6,16 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,200;1,800&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="main.css">
+         <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="button.css">
-    <link rel="stylesheet" href="ecords.css">
+    <link rel="stylesheet" href="records.css">
     <link rel="stylesheet" href="modal.css">
     <link rel="stylesheet" href="validate.css">
+   
     <title>Cadastro de Clientes</title>
 </head>
 
@@ -23,7 +25,9 @@
     </header>
     <main>
         <button type="button" class="button blue mobile" id="cadastrarCliente">Cadastrar Cliente</button>
-        <table id="tableClient" class="records">
+        
+        <table id="tableClient" class="table table-striped table-bordered table-responsive table-hover" style="font-size: 14px;" >
+       
             <thead>
                 <tr>
                     <th>Nome</th>
@@ -94,7 +98,9 @@
 </html>
 
 <!---
-<link rel="stylesheet" href="css/main.css">
+ <table id="tableClient" class="records">
+
+    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/button.css">
     <link rel="stylesheet" href="css/records.css">
     <link rel="stylesheet" href="css/modal.css">
